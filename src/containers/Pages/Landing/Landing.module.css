@@ -1,0 +1,6 @@
+.Landing {
+    @apply w-full;
+}
+.Landing__cards {
+    @apply flex flex-wrap justify-center w-full;
+}

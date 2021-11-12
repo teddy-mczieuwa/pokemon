@@ -1,0 +1,7 @@
+.Bio {
+    @apply flex items-center justify-center mb-4;
+  }
+  
+.Bio h2 {
+    @apply text-center capitalize;
+}

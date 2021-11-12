@@ -1,0 +1,19 @@
+.Pagination {
+    @apply flex items-center space-x-1 mt-5 py-5 justify-center cursor-pointer;
+}
+
+.Pagination__previous {
+    @apply px-4 py-2 font-bold text-gray-500 bg-gray-300 rounded-md hover:bg-blue-400 hover:text-white cursor-pointer;
+}
+
+.Pagination__page {
+    @apply px-4 py-2 text-gray-700 bg-gray-200 rounded-md hover:bg-blue-400 hover:text-white cursor-pointer;
+}
+
+.active {
+    @apply text-blue-600 px-4 py-2 rounded-md hover:bg-blue-400 hover:text-white cursor-pointer;
+}
+
+.Pagination__next {
+    @apply px-4 py-2 font-bold text-gray-500 bg-gray-300 rounded-md hover:bg-blue-400 hover:text-white cursor-pointer;
+}
