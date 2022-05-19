@@ -1,0 +1,15 @@
+.Pokemon {
+  @apply border;
+}
+
+.Pokemon__description {
+  @apply border flex justify-around;
+}
+
+.Pokemon img {
+  @apply w-3/12 h-1/4;
+}
+
+.Pokemon h2 {
+  @apply text-2xl my-2;
+}

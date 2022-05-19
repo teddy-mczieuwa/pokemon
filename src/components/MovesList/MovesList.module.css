@@ -1,0 +1,12 @@
+
+.MovesList {
+    @apply w-4/12 border;
+  }
+  
+  .MovesList h2 {
+    @apply text-center;
+  }
+  
+  .MovesList ol li {
+    @apply list-decimal ml-8 text-justify;
+  }
